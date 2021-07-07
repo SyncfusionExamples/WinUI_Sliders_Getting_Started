@@ -8,13 +8,14 @@
       mc:Ignorable="d"
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
     
-    <slider:SfRangeSlider RangeStart="30"
+    <slider:SfRangeSlider VerticalAlignment="Center"
+                          RangeStart="30"
                           RangeEnd="70"
                           ShowTicks="True"
                           ShowLabels="True"
-                          ShowDivisors="True"
-                          DivisorHeight="4"
-                          DivisorWidth="4"
+                          ShowDividers="True"
+                          DividerHeight="4"
+                          DividerWidth="4"
                           ActiveTrackHeight="4"
                           InactiveTrackHeight="4" />
 </Page>

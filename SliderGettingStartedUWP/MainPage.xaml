@@ -8,12 +8,13 @@
       Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
       xmlns:slider="using:Syncfusion.UI.Xaml.Sliders">
 
-    <slider:SfSlider Value="50"
+    <slider:SfSlider VerticalAlignment="Center"
+                     Value="50"
                      ShowTicks="True"
                      ShowLabels="True"
-                     ShowDivisors="True"
-                     DivisorHeight="4"
-                     DivisorWidth="4"
+                     ShowDividers="True"
+                     DividerHeight="4"
+                     DividerWidth="4"
                      ActiveTrackHeight="4"
                      InactiveTrackHeight="4" />
 </Page>
